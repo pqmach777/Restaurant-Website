@@ -1,1 +1,45 @@
+header{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
 
+
+@media (min-width: 992px) {
+    .navbar {
+        height: 100px;
+    }
+}
+.carousel-item {
+    background-color: black;
+}
+.carousel-inner > .carousel-item > img {
+    width:50%;
+    height:500px;
+    margin: auto;
+    opacity: .7;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar li{
+    padding: 50px
+}
+.background1 {
+    width: 100%;
+    background-image: url(https://www.thenational.ae/image/policy:1.725788:1525007101/lf29-APR-vietnamese-pic-2.jpg?f=16x9&w=1200&$p$f$w=abd664e);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    height: 500px;
+    opacity: .5 ;
+}
+.card {
+    margin:auto;
+    height: 400px;
+}
