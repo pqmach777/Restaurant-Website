@@ -1,0 +1,17 @@
+.grey {
+    background-color: grey;
+}
+.aliceblue {
+    background-color: aliceblue
+}
+.noborder{
+    border:none;
+}
+
+container-fluid{
+    width: 100%;
+}
+
+.bgcolor1 {
+    background-color: #94CDE3;
+}
